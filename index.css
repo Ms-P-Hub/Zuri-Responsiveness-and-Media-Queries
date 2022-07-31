@@ -2,39 +2,65 @@ body {
     font-family: Poppins;
     color: white;
     font-size: 16px;
-    background-color: hsl(0, 100%, 74%);/*hsl(248, 32%, 49%) hsl(249, 10%, 26%) hsl(246, 25%, 77%)*/
+    background-color: hsl(0, 100%, 74%);
+    /* hsl(154, 59%, 51%) hsl(248, 32%, 49%)  hsl(246, 25%, 77%)*/
     background-image: url('https://drive.google.com/uc?export=view&id=1nEutzDG8bc8ZgtqHpEeaRSAa1tH2N3gu');
 }
 
 #form {
     background-color: white;
     padding: 10px;
-    
+
 }
 
-.left{
+.left {
     flex: 1;
 }
-input{
+
+input {
     width: 300px;
     padding: 10px;
     margin: 2px;
+    border-radius: 5px;
     border: 1px solid hsl(249, 10%, 26%);
 }
-input:active{
-    border-color: hsl(248, 32%, 49%)
-}
+
+input:active {}
 
 input[type='button'] {
     background-color: hsl(154, 59%, 51%);
+    border-style: none;
+    width: 320px;
 }
 
 
+button {
+    background-color: hsl(248, 32%, 49%);
+    border-style: none;
+    color: white;
+    width: 350px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 8px;
+    box-shadow: 1px 6px hsl(249, 10%, 26%);
+}
+
+span {
+    font-weight: 700;
+}
 
 #main-form {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin: 10%;
-    
+
+}
+
+#terms {
+    font-size: 9px;
+}
+
+#warning {
+    color: red;
 }
